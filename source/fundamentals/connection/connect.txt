@@ -77,12 +77,15 @@ In the example, we set two connection options: ``maxPoolSize=20`` and
 
 .. _connect-atlas-java-driver:
 
-The following code shows how you can use the sample connection URI in a client
-to connect to MongoDB.
+In the following example, the driver uses a sample connection URI to
+connect to a MongoDB instance on Atlas, using placeholders for the
+username and password. In this example, the client uses the :ref:`Stable
+API <stable-api-java>` feature, though you can connect to Atlas
+without this feature.
 
 .. literalinclude:: /includes/fundamentals/code-snippets/srv.java
    :language: java
-   :emphasize-lines: 17
+   :emphasize-lines: 15
 
 .. _java-other-ways-to-connect:
 
