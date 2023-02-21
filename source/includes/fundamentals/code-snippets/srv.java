@@ -11,8 +11,9 @@ import com.mongodb.client.MongoDatabase;
 
 public class MongoClientConnectionExample {
     public static void main(String[] args) {
+        
         // Replace the uri string with your MongoDB deployment's connection string
-        String uri = "mongodb://<username>:<password>@sample.host:27017/?maxPoolSize=20&w=majority";
+        String uri = "mongodb+srv://<username>:<password>@cluster0.sample.mongodb.net/?retryWrites=true&w=majority";
 
         ServerApi serverApi = ServerApi.builder()
                 .version(ServerApiVersion.V1)
