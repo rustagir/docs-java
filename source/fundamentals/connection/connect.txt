@@ -85,7 +85,7 @@ without this feature.
 
 .. literalinclude:: /includes/fundamentals/code-snippets/srv.java
    :language: java
-   :emphasize-lines: 15
+   :emphasize-lines: 16
 
 .. _java-other-ways-to-connect:
 
